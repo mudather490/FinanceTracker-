@@ -2,7 +2,7 @@ import json
 from expense import Expense
 
 class FinanceTracker:
-    def __int__(self):
+    def __init__(self):
         self.expenses = []
 
     def add(self,expense):
